@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nnigam1/CLionProjects/DynamicProgramming/main.cpp">
+		<Unit filename="/Users/nnigam1/CLionProjects/DynamicProgramming/ShortestCommonSubstring.cpp">
 			<Option target="DynamicProgramming"/>
 		</Unit>
 		<Unit filename="/Users/nnigam1/CLionProjects/DynamicProgramming/CMakeLists.txt">

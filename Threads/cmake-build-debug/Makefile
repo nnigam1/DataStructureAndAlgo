@@ -123,32 +123,32 @@ Threads/fast:
 	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/build
 .PHONY : Threads/fast
 
-PromiseFuture.o: PromiseFuture.cpp.o
+matrix.o: matrix.cpp.o
 
-.PHONY : PromiseFuture.o
+.PHONY : matrix.o
 
 # target to build an object file
-PromiseFuture.cpp.o:
-	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/PromiseFuture.cpp.o
-.PHONY : PromiseFuture.cpp.o
+matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/matrix.cpp.o
+.PHONY : matrix.cpp.o
 
-PromiseFuture.i: PromiseFuture.cpp.i
+matrix.i: matrix.cpp.i
 
-.PHONY : PromiseFuture.i
+.PHONY : matrix.i
 
 # target to preprocess a source file
-PromiseFuture.cpp.i:
-	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/PromiseFuture.cpp.i
-.PHONY : PromiseFuture.cpp.i
+matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/matrix.cpp.i
+.PHONY : matrix.cpp.i
 
-PromiseFuture.s: PromiseFuture.cpp.s
+matrix.s: matrix.cpp.s
 
-.PHONY : PromiseFuture.s
+.PHONY : matrix.s
 
 # target to generate assembly for a file
-PromiseFuture.cpp.s:
-	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/PromiseFuture.cpp.s
-.PHONY : PromiseFuture.cpp.s
+matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Threads.dir/build.make CMakeFiles/Threads.dir/matrix.cpp.s
+.PHONY : matrix.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Threads"
-	@echo "... PromiseFuture.o"
-	@echo "... PromiseFuture.i"
-	@echo "... PromiseFuture.s"
+	@echo "... matrix.o"
+	@echo "... matrix.i"
+	@echo "... matrix.s"
 .PHONY : help
 
 

@@ -57,27 +57,27 @@ include CMakeFiles/CppLearnings.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppLearnings.dir/flags.make
 
-CMakeFiles/CppLearnings.dir/randomTest.cpp.o: CMakeFiles/CppLearnings.dir/flags.make
-CMakeFiles/CppLearnings.dir/randomTest.cpp.o: ../randomTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nnigam1/CLionProjects/CppLearnings/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppLearnings.dir/randomTest.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppLearnings.dir/randomTest.cpp.o -c /Users/nnigam1/CLionProjects/CppLearnings/randomTest.cpp
+CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o: CMakeFiles/CppLearnings.dir/flags.make
+CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o: ../TripletKthSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nnigam1/CLionProjects/CppLearnings/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o -c /Users/nnigam1/CLionProjects/CppLearnings/TripletKthSum.cpp
 
-CMakeFiles/CppLearnings.dir/randomTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppLearnings.dir/randomTest.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nnigam1/CLionProjects/CppLearnings/randomTest.cpp > CMakeFiles/CppLearnings.dir/randomTest.cpp.i
+CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nnigam1/CLionProjects/CppLearnings/TripletKthSum.cpp > CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.i
 
-CMakeFiles/CppLearnings.dir/randomTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppLearnings.dir/randomTest.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nnigam1/CLionProjects/CppLearnings/randomTest.cpp -o CMakeFiles/CppLearnings.dir/randomTest.cpp.s
+CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nnigam1/CLionProjects/CppLearnings/TripletKthSum.cpp -o CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.s
 
 # Object files for target CppLearnings
 CppLearnings_OBJECTS = \
-"CMakeFiles/CppLearnings.dir/randomTest.cpp.o"
+"CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o"
 
 # External object files for target CppLearnings
 CppLearnings_EXTERNAL_OBJECTS =
 
-CppLearnings: CMakeFiles/CppLearnings.dir/randomTest.cpp.o
+CppLearnings: CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o
 CppLearnings: CMakeFiles/CppLearnings.dir/build.make
 CppLearnings: CMakeFiles/CppLearnings.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nnigam1/CLionProjects/CppLearnings/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppLearnings"

@@ -123,32 +123,32 @@ DynamicProgramming/fast:
 	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/build
 .PHONY : DynamicProgramming/fast
 
-main.o: main.cpp.o
+ShortestCommonSubstring.o: ShortestCommonSubstring.cpp.o
 
-.PHONY : main.o
+.PHONY : ShortestCommonSubstring.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/main.cpp.o
-.PHONY : main.cpp.o
+ShortestCommonSubstring.cpp.o:
+	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o
+.PHONY : ShortestCommonSubstring.cpp.o
 
-main.i: main.cpp.i
+ShortestCommonSubstring.i: ShortestCommonSubstring.cpp.i
 
-.PHONY : main.i
+.PHONY : ShortestCommonSubstring.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/main.cpp.i
-.PHONY : main.cpp.i
+ShortestCommonSubstring.cpp.i:
+	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.i
+.PHONY : ShortestCommonSubstring.cpp.i
 
-main.s: main.cpp.s
+ShortestCommonSubstring.s: ShortestCommonSubstring.cpp.s
 
-.PHONY : main.s
+.PHONY : ShortestCommonSubstring.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/main.cpp.s
-.PHONY : main.cpp.s
+ShortestCommonSubstring.cpp.s:
+	$(MAKE) -f CMakeFiles/DynamicProgramming.dir/build.make CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.s
+.PHONY : ShortestCommonSubstring.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DynamicProgramming"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ShortestCommonSubstring.o"
+	@echo "... ShortestCommonSubstring.i"
+	@echo "... ShortestCommonSubstring.s"
 .PHONY : help
 
 

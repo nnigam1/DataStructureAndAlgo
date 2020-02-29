@@ -123,32 +123,32 @@ Graph/fast:
 	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/build
 .PHONY : Graph/fast
 
-DijkitrasSet.o: DijkitrasSet.cpp.o
+sharedInterests.o: sharedInterests.cpp.o
 
-.PHONY : DijkitrasSet.o
+.PHONY : sharedInterests.o
 
 # target to build an object file
-DijkitrasSet.cpp.o:
-	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/DijkitrasSet.cpp.o
-.PHONY : DijkitrasSet.cpp.o
+sharedInterests.cpp.o:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/sharedInterests.cpp.o
+.PHONY : sharedInterests.cpp.o
 
-DijkitrasSet.i: DijkitrasSet.cpp.i
+sharedInterests.i: sharedInterests.cpp.i
 
-.PHONY : DijkitrasSet.i
+.PHONY : sharedInterests.i
 
 # target to preprocess a source file
-DijkitrasSet.cpp.i:
-	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/DijkitrasSet.cpp.i
-.PHONY : DijkitrasSet.cpp.i
+sharedInterests.cpp.i:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/sharedInterests.cpp.i
+.PHONY : sharedInterests.cpp.i
 
-DijkitrasSet.s: DijkitrasSet.cpp.s
+sharedInterests.s: sharedInterests.cpp.s
 
-.PHONY : DijkitrasSet.s
+.PHONY : sharedInterests.s
 
 # target to generate assembly for a file
-DijkitrasSet.cpp.s:
-	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/DijkitrasSet.cpp.s
-.PHONY : DijkitrasSet.cpp.s
+sharedInterests.cpp.s:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/sharedInterests.cpp.s
+.PHONY : sharedInterests.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Graph"
-	@echo "... DijkitrasSet.o"
-	@echo "... DijkitrasSet.i"
-	@echo "... DijkitrasSet.s"
+	@echo "... sharedInterests.o"
+	@echo "... sharedInterests.i"
+	@echo "... sharedInterests.s"
 .PHONY : help
 
 

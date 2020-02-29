@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/nnigam1/CLionProjects/CppLearnings/randomTest.cpp
+/Users/nnigam1/CLionProjects/CppLearnings/TripletKthSum.cpp
 iostream
 -
 vector
--
-list
 -
 

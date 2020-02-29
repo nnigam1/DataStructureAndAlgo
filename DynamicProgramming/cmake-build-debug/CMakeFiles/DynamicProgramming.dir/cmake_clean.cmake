@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DynamicProgramming.dir/main.cpp.o"
+  "CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o"
   "DynamicProgramming"
   "DynamicProgramming.pdb"
 )

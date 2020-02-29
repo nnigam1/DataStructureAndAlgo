@@ -3,4 +3,4 @@ project(Graph)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Graph DijkitrasSet.cpp)
+add_executable(Graph sharedInterests.cpp)

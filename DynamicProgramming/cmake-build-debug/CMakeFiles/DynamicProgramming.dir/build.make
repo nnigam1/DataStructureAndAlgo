@@ -57,27 +57,27 @@ include CMakeFiles/DynamicProgramming.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DynamicProgramming.dir/flags.make
 
-CMakeFiles/DynamicProgramming.dir/main.cpp.o: CMakeFiles/DynamicProgramming.dir/flags.make
-CMakeFiles/DynamicProgramming.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nnigam1/CLionProjects/DynamicProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DynamicProgramming.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DynamicProgramming.dir/main.cpp.o -c /Users/nnigam1/CLionProjects/DynamicProgramming/main.cpp
+CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o: CMakeFiles/DynamicProgramming.dir/flags.make
+CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o: ../ShortestCommonSubstring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nnigam1/CLionProjects/DynamicProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o -c /Users/nnigam1/CLionProjects/DynamicProgramming/ShortestCommonSubstring.cpp
 
-CMakeFiles/DynamicProgramming.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DynamicProgramming.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nnigam1/CLionProjects/DynamicProgramming/main.cpp > CMakeFiles/DynamicProgramming.dir/main.cpp.i
+CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nnigam1/CLionProjects/DynamicProgramming/ShortestCommonSubstring.cpp > CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.i
 
-CMakeFiles/DynamicProgramming.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DynamicProgramming.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nnigam1/CLionProjects/DynamicProgramming/main.cpp -o CMakeFiles/DynamicProgramming.dir/main.cpp.s
+CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nnigam1/CLionProjects/DynamicProgramming/ShortestCommonSubstring.cpp -o CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.s
 
 # Object files for target DynamicProgramming
 DynamicProgramming_OBJECTS = \
-"CMakeFiles/DynamicProgramming.dir/main.cpp.o"
+"CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o"
 
 # External object files for target DynamicProgramming
 DynamicProgramming_EXTERNAL_OBJECTS =
 
-DynamicProgramming: CMakeFiles/DynamicProgramming.dir/main.cpp.o
+DynamicProgramming: CMakeFiles/DynamicProgramming.dir/ShortestCommonSubstring.cpp.o
 DynamicProgramming: CMakeFiles/DynamicProgramming.dir/build.make
 DynamicProgramming: CMakeFiles/DynamicProgramming.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nnigam1/CLionProjects/DynamicProgramming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DynamicProgramming"

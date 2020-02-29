@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nnigam1/CLionProjects/DesignPatterns/threadpool.cpp
+condition_variable
+-
+functional
+-
+iostream
+-
+future
+-
+vector
+-
+thread
+-
+queue
+-
+

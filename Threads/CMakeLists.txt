@@ -3,4 +3,4 @@ project(Threads)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Threads PromiseFuture.cpp)
+add_executable(Threads matrix.cpp)

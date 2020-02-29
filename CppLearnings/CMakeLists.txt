@@ -3,4 +3,4 @@ project(CppLearnings)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CppLearnings randomTest.cpp)
+add_executable(CppLearnings TripletKthSum.cpp)

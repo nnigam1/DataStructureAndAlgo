@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Threads.dir/PromiseFuture.cpp.o"
+  "CMakeFiles/Threads.dir/matrix.cpp.o"
   "Threads"
   "Threads.pdb"
 )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Graph.dir/DijkitrasSet.cpp.o"
+  "CMakeFiles/Graph.dir/sharedInterests.cpp.o"
   "Graph"
   "Graph.pdb"
 )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppLearnings.dir/randomTest.cpp.o"
+  "CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o"
   "CppLearnings"
   "CppLearnings.pdb"
 )

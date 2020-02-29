@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nnigam1/CLionProjects/CppLearnings/randomTest.cpp">
+		<Unit filename="/Users/nnigam1/CLionProjects/CppLearnings/TripletKthSum.cpp">
 			<Option target="CppLearnings"/>
 		</Unit>
 		<Unit filename="/Users/nnigam1/CLionProjects/CppLearnings/CMakeLists.txt">

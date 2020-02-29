@@ -123,32 +123,32 @@ CppLearnings/fast:
 	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/build
 .PHONY : CppLearnings/fast
 
-randomTest.o: randomTest.cpp.o
+TripletKthSum.o: TripletKthSum.cpp.o
 
-.PHONY : randomTest.o
+.PHONY : TripletKthSum.o
 
 # target to build an object file
-randomTest.cpp.o:
-	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/randomTest.cpp.o
-.PHONY : randomTest.cpp.o
+TripletKthSum.cpp.o:
+	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.o
+.PHONY : TripletKthSum.cpp.o
 
-randomTest.i: randomTest.cpp.i
+TripletKthSum.i: TripletKthSum.cpp.i
 
-.PHONY : randomTest.i
+.PHONY : TripletKthSum.i
 
 # target to preprocess a source file
-randomTest.cpp.i:
-	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/randomTest.cpp.i
-.PHONY : randomTest.cpp.i
+TripletKthSum.cpp.i:
+	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.i
+.PHONY : TripletKthSum.cpp.i
 
-randomTest.s: randomTest.cpp.s
+TripletKthSum.s: TripletKthSum.cpp.s
 
-.PHONY : randomTest.s
+.PHONY : TripletKthSum.s
 
 # target to generate assembly for a file
-randomTest.cpp.s:
-	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/randomTest.cpp.s
-.PHONY : randomTest.cpp.s
+TripletKthSum.cpp.s:
+	$(MAKE) -f CMakeFiles/CppLearnings.dir/build.make CMakeFiles/CppLearnings.dir/TripletKthSum.cpp.s
+.PHONY : TripletKthSum.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppLearnings"
-	@echo "... randomTest.o"
-	@echo "... randomTest.i"
-	@echo "... randomTest.s"
+	@echo "... TripletKthSum.o"
+	@echo "... TripletKthSum.i"
+	@echo "... TripletKthSum.s"
 .PHONY : help
 
 

@@ -18,7 +18,7 @@ void threadPrint()
 {
     for(int i = 1 ; i <= 50 ;  i+=2) {
         shared_print("From Thread t1 : " , i);
-        this_thread::sleep_for(chrono::milliseconds(2));
+        this_thread::sleep_for(chrono::milliseconds(1));
     }
 }
 
@@ -29,7 +29,7 @@ int main()
     for(int i = 0 ; i <= 50 ; i+=2)
     {
         shared_print("From Thread main : " , i);
-        this_thread::sleep_for(chrono::milliseconds(2));
+        this_thread::sleep_for(chrono::milliseconds(1));
     }
     if(t1.joinable())
         t1.join();
